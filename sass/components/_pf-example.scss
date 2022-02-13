@@ -1,14 +1,14 @@
 .work-foto{
     display:block;
 }
-.example-list{
+.examples{
     display: flex ;
     flex-wrap: wrap;
 }
 .example:not(:nth-child(3n+1)){
     margin-left: 30px;
 }
-.example-link{
+.example__link{
     display: block;
     box-sizing: border-box;
     text-decoration: none;
@@ -26,8 +26,10 @@
     margin-bottom: 30px;
     background: #FFFFFF;
     box-sizing: border-box;
+
+    
 }
-.work-capture{
+.example__capture{
     padding-top: 20px;
     padding-left: 24px;
     padding-bottom: 20px;
@@ -35,7 +37,7 @@
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
 }
-.works-title{
+.example__title{
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
@@ -43,21 +45,21 @@
     color:var(--font-color);
     margin-bottom: 4px;
 }
-.works-type{
+.example__type{
     font-size: 14px;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
     color: var(--works-type-color);
 }
-.work-foto-wrap{
+.example__foto_wrap{
     position: relative;
     overflow: hidden;
 }
-.example:hover .foto-text {
+.example:hover .example__foto__text {
     transform: translateY(0%);
 }
-.foto-text{
+.example__foto__text{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;

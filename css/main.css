@@ -955,7 +955,7 @@ header {
   margin-bottom: 56px;
 }
 
-.filter-button {
+.filter__button {
   cursor: pointer;
   border: none;
   border-radius: 4px;
@@ -977,7 +977,7 @@ header {
   transition: color 250ms linear;
 }
 
-.filter-button:hover, .filter-button:focus {
+.filter__button:hover, .filter__button:focus {
   background-color: var(--nav-hover);
   color: var(--button-fontcolor);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -988,7 +988,7 @@ header {
   display: block;
 }
 
-.example-list {
+.examples {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1000,7 +1000,7 @@ header {
   margin-left: 30px;
 }
 
-.example-link {
+.example__link {
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1011,7 +1011,7 @@ header {
   transition: box-shadow 250ms linear, -webkit-box-shadow 250ms linear;
 }
 
-.example-link:hover, .example-link:focus {
+.example__link:hover, .example__link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -1024,7 +1024,7 @@ header {
           box-sizing: border-box;
 }
 
-.work-capture {
+.example__capture {
   padding-top: 20px;
   padding-left: 24px;
   padding-bottom: 20px;
@@ -1033,7 +1033,7 @@ header {
   border-bottom: 1px solid #EEEEEE;
 }
 
-.works-title {
+.example__title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -1042,7 +1042,7 @@ header {
   margin-bottom: 4px;
 }
 
-.works-type {
+.example__type {
   font-size: 14px;
   font-weight: normal;
   font-size: 16px;
@@ -1050,17 +1050,17 @@ header {
   color: var(--works-type-color);
 }
 
-.work-foto-wrap {
+.example__foto_wrap {
   position: relative;
   overflow: hidden;
 }
 
-.example:hover .foto-text {
+.example:hover .example__foto__text {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
 }
 
-.foto-text {
+.example__foto__text {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
