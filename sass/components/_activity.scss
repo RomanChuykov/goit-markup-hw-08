@@ -1,0 +1,52 @@
+.activity{
+    padding-bottom: 94px;
+
+
+}
+
+.container-activity{
+   align-items: center;
+}
+.activity__title{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: calc(42 / 36);
+    text-align: center;
+    margin-bottom: 50px;
+ }
+.activity__pic{
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+} 
+.activity__images{ 
+    display: flex;
+    li{
+        position: relative;
+    }
+     li:not(:last-child){
+        margin-right: 30px;
+    }
+}
+
+.activity__caption{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 27px 82px;
+    
+}
+.activity__caption__container{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(47, 48, 58, 0.8);
+}
