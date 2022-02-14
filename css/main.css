@@ -806,6 +806,7 @@ header {
   border-radius: 4px;
   outline: none;
   cursor: pointer;
+  display: block;
 }
 
 .modal-text:focus {
@@ -822,7 +823,7 @@ header {
 
 .input-icon {
   position: absolute;
-  left: 15px;
+  left: 12px;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -903,6 +904,10 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.modal-sub-lab_link {
+  color: #2196F3;
 }
 
 .svg-check {
